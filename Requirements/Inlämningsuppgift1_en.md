@@ -25,13 +25,15 @@ Remember that all files and folders should be named clearly so that it is eviden
 5. The elements on the page should be responsive enough to stay visible in the image
 6. Colors, sizes, and distances should be similar to the original website's
 7. The assignment must be submitted on time! (the project folder is zipped and submitted in the learning platform as a group)
-   Requirements for passing with distinction:
-8. The requirements for passing are met
-9. The elements on the page should be fully responsive - matching the original website's responsiveness
-10. There should be several screenshots of the original website's appearance for different screen sizes - at least one for mobile, one for tablet, and one for desktop.
-11. Colors, sizes, and distances should match the original website's
-12. An icon set (css file from FontAwesome or MaterialUI) should be loaded into the head tag, icons from the file should then be used in at least one place in the html code.
-13. The code should be logically structured with clear comments for its construction
+
+**Requirements for passing with distinction:**
+
+1. The requirements for passing are met
+2. The elements on the page should be fully responsive - matching the original website's responsiveness
+3. There should be several screenshots of the original website's appearance for different screen sizes - at least one for mobile, one for tablet, and one for desktop.
+4. Colors, sizes, and distances should match the original website's
+5. An icon set (css file from FontAwesome or MaterialUI) should be loaded into the head tag, icons from the file should then be used in at least one place in the html code.
+6. The code should be logically structured with clear comments for its construction
 
 **Mini-glossary:**
 
@@ -39,7 +41,7 @@ Remember that all files and folders should be named clearly so that it is eviden
 - Interactivity - the computer's ability to respond to user input (e.g., button presses).
 - Structure - the internal organization of a system.
 
-Do you have any questions or need something explained in English
+Do you have any questions or need something explained in English?
 Please feel free to ask me during a lecture!
 
 GOOD LUCK!
