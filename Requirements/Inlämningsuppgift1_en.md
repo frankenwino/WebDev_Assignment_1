@@ -18,22 +18,33 @@ Remember that all files and folders should be named clearly so that it is eviden
 
 **Requirements for passing:**
 
-1. Your project folder contains at least one HTML file and one CSS file, as well as a README.md
-2. In the README.md file, it should be clear which page you have chosen to recreate and any limitations you have chosen to make and why, a link to the original website, and your name.
-3. Git and Github have been used (the repository should be public so that I can access it)
-4. At least one screenshot of the original website's appearance should be in your project folder
-5. The elements on the page should be responsive enough to stay visible in the image
-6. Colors, sizes, and distances should be similar to the original website's
-7. The assignment must be submitted on time! (the project folder is zipped and submitted in the learning platform as a group)
+-[x] Your project folder contains at least one HTML file and one CSS file, as well as a README.md
+
+-[ ] In the README.md file, it should be clear which page you have chosen to recreate and any limitations you have chosen to make and why, a link to the original website, and your name.
+
+-[ ] Git and Github have been used (the repository should be public so that I can access it)
+
+-[x] At least one screenshot of the original website's appearance should be in your project folder
+
+-[ ] The elements on the page should be responsive enough to stay visible in the image
+
+-[ ] Colors, sizes, and distances should be similar to the original website's
+
+-[ ] The assignment must be submitted on time! (the project folder is zipped and submitted in the learning platform as a group)
 
 **Requirements for passing with distinction:**
 
-1. The requirements for passing are met
-2. The elements on the page should be fully responsive - matching the original website's responsiveness
-3. There should be several screenshots of the original website's appearance for different screen sizes - at least one for mobile, one for tablet, and one for desktop.
-4. Colors, sizes, and distances should match the original website's
-5. An icon set (css file from FontAwesome or MaterialUI) should be loaded into the head tag, icons from the file should then be used in at least one place in the html code.
-6. The code should be logically structured with clear comments for its construction
+-[ ] The requirements for passing are met
+
+-[ ] The elements on the page should be fully responsive - matching the original website's responsiveness
+
+-[ ] There should be several screenshots of the original website's appearance for different screen sizes - at least one for mobile, one for tablet, and one for desktop.
+
+-[ ] Colors, sizes, and distances should match the original website's
+
+-[ ] An icon set (css file from FontAwesome or MaterialUI) should be loaded into the head tag, icons from the file should then be used in at least one place in the html code.
+
+-[ ] The code should be logically structured with clear comments for its construction
 
 **Mini-glossary:**
 
