@@ -20,9 +20,9 @@ Remember that all files and folders should be named clearly so that it is eviden
 
 -[x] Your project folder contains at least one HTML file and one CSS file, as well as a README.md
 
--[ ] In the README.md file, it should be clear which page you have chosen to recreate and any limitations you have chosen to make and why, a link to the original website, and your name.
+-[x] In the README.md file, it should be clear which page you have chosen to recreate and any limitations you have chosen to make and why, a link to the original website, and your name.
 
--[ ] Git and Github have been used (the repository should be public so that I can access it)
+-[x] Git and Github have been used (the repository should be public so that I can access it)
 
 -[x] At least one screenshot of the original website's appearance should be in your project folder
 
