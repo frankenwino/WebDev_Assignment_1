@@ -4,7 +4,8 @@
     } */
 
     .mobile-test,
-    .tablet-test {
+    .tablet-test,
+    .device-menu {
         display: none;
     }
 
