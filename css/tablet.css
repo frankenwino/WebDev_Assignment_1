@@ -1,7 +1,7 @@
 @media only screen and (min-width: 30rem) and (max-width: 62rem) {
-    body {
-        background-color: red;
-    }
+    /* body {
+        background-color: lightcoral;
+    } */
 
     .mobile-test,
     .desktop-test {

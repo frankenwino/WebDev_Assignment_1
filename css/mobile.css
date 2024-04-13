@@ -1,21 +1,7 @@
-/* @media (min-width: 390px) {
-    .nav-links {
-        display: flex;
-        gap: 1rem;
-        font-size: 1.5rem;
-    }
-
-    .burger-icon {
-        display: none;
-    }
-} */
-
 @media only screen and (max-width: 30rem) {
-
-    /* CSS styles specific to mobile devices */
-    body {
-        background-color: blue;
-    }
+    /* body {
+        background-color: lightgoldenrodyellow;
+    } */
 
     .nav-links {
         display: flex;
