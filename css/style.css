@@ -2,34 +2,61 @@
 
 body {
     margin: 0;
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.7rem;
 }
-.top-bar {
+
+header {
+    max-width: 100%;
+    height:auto;
+    display: flex;
+    flex-shrink: 1;
+}
+
+.menu-bar {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
 
-a:link {
-    text-decoration: none;
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    /* padding: 0 1rem; */
+    gap: 1rem;
+    align-items: center;
 }
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+/* 
+a:hover {
+    text-decoration: underline;
+} */
+
 
 li {
     list-style-type: none;
 }
 
-
-.nav-list ul {
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-}
-
-.nav-list a {
-    text-transform: uppercase;
-}
-
 .bg-puke-green {
-    background-color: #669b00;
+    background-color: #affe53;
 }
 
 
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 400 to 700 */
+
+/* .arimo{
+    font-family: "Arimo", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+} */
