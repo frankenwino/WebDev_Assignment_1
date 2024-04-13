@@ -3,8 +3,12 @@
         background-color: yellow;
     }
 
-        .mobile-test,
-        .tablet-test {
-            display: none;
-        }
+    .mobile-test,
+    .tablet-test {
+        display: none;
+    }
+
+    .burger-icon {
+        display: none;
+    }
 }
