@@ -23,10 +23,6 @@
         font-size: 1.5rem;
     }
 
-    .burger-icon {
-        display: none;
-    }
-
     .tablet-test,
     .desktop-test {
             display: none;
