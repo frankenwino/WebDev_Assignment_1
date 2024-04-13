@@ -9,13 +9,19 @@ body {
     justify-content: space-between;
 }
 
+a:link {
+    text-decoration: none;
+}
+
 li {
     list-style-type: none;
 }
 
+
 .nav-list ul {
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    gap: 1rem;
 }
 
 .nav-list a {
