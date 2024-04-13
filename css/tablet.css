@@ -4,7 +4,8 @@
     } */
 
     .mobile-test,
-    .desktop-test {
+    .desktop-test,
+    .desktop-menu {
         display: none;
     }
 
