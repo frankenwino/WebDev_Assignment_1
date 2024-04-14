@@ -1,4 +1,4 @@
-@media only screen and (min-width: 62rem) {
+@media only screen and (min-width: 769px) {
     /* body {
         background-color: lightblue;
     } */
@@ -12,4 +12,5 @@
     .burger-icon {
         display: none;
     }
+
 }
