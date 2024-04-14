@@ -9,6 +9,14 @@
         display: none;
     }
 
+    /* .promo-area {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    } */
+
     .burger-icon {
         display: none;
     }

@@ -9,6 +9,14 @@
         font-size: 1.5rem;
     }
 
+    /* .promo-area {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    } */
+
     .tablet-test,
     .desktop-test,
     .desktop-menu {
