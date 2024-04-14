@@ -11,14 +11,21 @@ body {
 }
 
 header {
-    max-width: 100%;
+    /* max-width: 100%; */
     height:auto;
     display: flex;
     flex-shrink: 2;
 }
 
+.promo-area {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .container {
-    max-width: 80rem;
+    /* max-width: 80rem; */
     margin: auto;
     width: 100%;
 }
@@ -57,7 +64,6 @@ li {
 .bg-puke-green {
     background-color: #affe53;
 }
-
 
 /* <uniquifier>: Use a unique and descriptive class name
 <weight>: Use a value from 400 to 700 */
