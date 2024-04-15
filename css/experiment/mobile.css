@@ -111,6 +111,7 @@
     }
 
     .tablet-test,
+    .tablet-large-test,
     .desktop-test,
     .desktop-menu {
         display: none;
