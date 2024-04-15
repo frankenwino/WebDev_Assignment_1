@@ -9,13 +9,70 @@
         font-size: 1.5rem;
     }
 
-    /* .promo-area {
+    .header-area {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 1rem;
-        flex-wrap: wrap;
-        justify-content: center;
-    } */
+        padding: 5rem 0 0;
+    }
+
+    .featured-area {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    .promo-area {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    .article-area {
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 1rem;
+    }
+
+    .header-image-container {
+        width: 300px;
+        height: 62.77px;
+    }
+
+    .header-image-container img {
+        width: 100%;
+        height: 100%;
+        /* object-fit: cover; */
+        /* Fit the image inside the container while preserving aspect ratio */
+    }
+
+    .featured-image-container {
+        width: 300px;
+        height: 200px;
+        overflow: hidden;
+        /* Hide any content that overflows the container */
+    }
+
+    .featured-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        /* Fit the image inside the container while preserving aspect ratio */
+    }
+
+    .promo-image-container {
+        width: 300px;
+        height: 176;
+        overflow: hidden;
+        /* Hide any content that overflows the container */
+    }
+
+    .promo-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        /* Fit the image inside the container while preserving aspect ratio */
+    }
+
 
     .tablet-test,
     .desktop-test,
