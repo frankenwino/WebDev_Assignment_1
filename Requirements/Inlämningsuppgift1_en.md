@@ -48,7 +48,7 @@ Remember that all files and folders should be named clearly so that it is eviden
 
 **Mini-glossary:**
 
-- Responsiveness - describes a page's ability to adapt to different screen sizes and devices.\*
+- Responsiveness - describes a page's ability to adapt to different screen sizes and devices.
 - Interactivity - the computer's ability to respond to user input (e.g., button presses).
 - Structure - the internal organization of a system.
 
