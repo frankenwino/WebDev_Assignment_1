@@ -15,6 +15,18 @@
         padding: 5rem 0 0;
     }
 
+    .header-image-container {
+        width: 300px;
+        height: 62.77px;
+    }
+
+    .header-image-container img {
+        width: 100%;
+        height: 100%;
+        /* object-fit: cover; */
+        /* Fit the image inside the container while preserving aspect ratio */
+    }
+
     .featured-area {
         display: grid;
         grid-template-columns: 1fr;
@@ -33,35 +45,22 @@
         padding: 1rem;
     }
 
-    .header-image-container {
-        width: 300px;
-        height: 62.77px;
-    }
-
-    .header-image-container img {
-        width: 100%;
-        height: 100%;
-        /* object-fit: cover; */
-        /* Fit the image inside the container while preserving aspect ratio */
-    }
 
     .featured-image-container {
         width: 300px;
         height: 200px;
-        overflow: hidden;
-        /* Hide any content that overflows the container */
+        overflow: hidden;        
     }
 
     .featured-image-container img {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        /* Fit the image inside the container while preserving aspect ratio */
     }
 
     .promo-image-container {
         width: 300px;
-        height: 176;
+        height: 176px;
         overflow: hidden;
         /* Hide any content that overflows the container */
     }
@@ -73,6 +72,28 @@
         /* Fit the image inside the container while preserving aspect ratio */
     }
 
+    .article-image-container {
+        width: 300px;
+        height: 230.77px;
+        overflow: hidden;
+        /* Hide any content that overflows the container */
+    }
+
+    .article-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        /* Fit the image inside the container while preserving aspect ratio */
+    }
+
+    .post-entry {
+        width:300px;
+    }
+
+    .centre-text {
+        display: block;
+        text-align: center;
+    }
 
     .tablet-test,
     .desktop-test,
