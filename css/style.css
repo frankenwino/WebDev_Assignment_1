@@ -4,6 +4,7 @@
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
+
 body {
     margin: 0;
     font-family: "Arimo", sans-serif;
@@ -30,16 +31,7 @@ footer {
 .responsive {
     max-width: 100%;
     height: auto;
-    /* display: flex; */
-    /* flex-shrink: 2; */
 }
-
-/* .promo-area {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-    justify-content: center;
-} */
 
 .promo-area {
     display: grid;
