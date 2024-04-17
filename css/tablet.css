@@ -17,6 +17,7 @@
 
     .container {
         width: 480px;
+        margin: auto;
     }
 
     .featured-image-container {

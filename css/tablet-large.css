@@ -23,6 +23,7 @@
 
     .container {
         width: 726px;
+        margin: auto;
     }
 
     .featured-image-container {
