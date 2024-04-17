@@ -26,9 +26,9 @@ Remember that all files and folders should be named clearly so that it is eviden
 
 -[x] At least one screenshot of the original website's appearance should be in your project folder
 
--[ ] The elements on the page should be responsive enough to stay visible in the image
+-[x] The elements on the page should be responsive enough to stay visible in the image
 
--[ ] Colors, sizes, and distances should be similar to the original website's
+-[x] Colors, sizes, and distances should be similar to the original website's
 
 -[ ] The assignment must be submitted on time! (the project folder is zipped and submitted in the learning platform as a group)
 
