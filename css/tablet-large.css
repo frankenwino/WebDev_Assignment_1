@@ -65,7 +65,7 @@
     }
 
     .article-image-container {
-        width: 348px;
+        width: 355px;
         height: 267.69px;
         overflow: hidden;
         /* Hide any content that overflows the container */
@@ -79,11 +79,11 @@
     }
 
     .post-header {
-        width: 348px;
+        width: 355px;
     }
     
     .post-entry {
-        width: 348px;
+        width: 355px;
     }
 
     .burger-icon,

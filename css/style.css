@@ -35,19 +35,12 @@ footer {
     font-size: 0.74rem;
 }
 
-/* .responsive {
-    max-width: 100%;
-    height: auto;
-} */
-
 .promo-area {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
     justify-content: center;
     max-width: 940px;
-    
-    /* margin: 0 auto; */
 }
 
 .article-area {
@@ -62,7 +55,7 @@ footer {
 }
 
 .post-header {
-    padding: 1rem 0 0 0 ;
+    padding: 1rem 0 0 0;
 }
 
 .post-entry {
@@ -96,7 +89,7 @@ footer {
 .older {
     display: flex;
     justify-content: flex-end;
-    padding: 3rem;
+    padding: 4rem 0 3rem 0;
 }
 
 .email-list {

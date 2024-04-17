@@ -61,7 +61,7 @@
     }
 
     .article-image-container {
-        width: 225px;
+        width: 232px;
         height: 173.06px;
         overflow: hidden;
         /* Hide any content that overflows the container */
@@ -75,11 +75,11 @@
     }
 
     .post-header {
-        width: 225px;
+        width: 232px;
     }
     
     .post-entry {
-        width: 225px;
+        width: 232px;
     }
 
     .mobile-test,
