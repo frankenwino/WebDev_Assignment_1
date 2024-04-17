@@ -15,6 +15,10 @@
         height: 100%;
     }
 
+    .container {
+        width: 300px
+    }
+
     .featured-image-container {
         width: 300px;
         height: 200px;
@@ -33,9 +37,10 @@
     .promo-area {
         display: grid;
         grid-template-columns: 1fr;
-        padding: 1rem 0 0;
+        /* padding: 1rem 0 0; */
         justify-content: center;
         align-items: center;
+        
     }
 
     .promo-image-container {

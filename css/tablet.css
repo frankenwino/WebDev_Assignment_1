@@ -15,6 +15,10 @@
         height: 100%;
     }
 
+    .container {
+        width: 480px;
+    }
+
     .featured-image-container {
         width: 480px;
         height: 300px;

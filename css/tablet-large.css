@@ -21,6 +21,10 @@
         height: 100%;
     }
 
+    .container {
+        width: 726px;
+    }
+
     .featured-image-container {
         width: 726px;
         height: 356px;
@@ -38,6 +42,7 @@
         grid-template-columns: 1fr 1fr 1fr;
         /* padding: 1rem; */
         padding: 1rem 0 0 0;
+        max-width: 726px;
     }
 
     .promo-image-container {
