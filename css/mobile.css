@@ -1,4 +1,9 @@
 @media only screen and (max-width: 479px) {
+    .container {
+            width: 300px;
+            margin: auto;
+    }
+    
     .nav-links {
         display: flex;
         gap: 1rem;
@@ -13,11 +18,6 @@
     .header-image-container img {
         width: 100%;
         height: 100%;
-    }
-
-    .container {
-        width: 300px;
-        margin: auto;
     }
 
     .featured-image-container {
