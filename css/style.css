@@ -71,7 +71,7 @@ footer {
 .menu-bar {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
     position: fixed;
     top: 0;
