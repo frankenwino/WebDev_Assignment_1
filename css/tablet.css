@@ -7,7 +7,7 @@
     
     .header-image-container {
         width: 480px;
-        height: 100.44px;
+        /* height: 100.44px; */
     }
 
     .header-image-container img {
@@ -37,7 +37,7 @@
     .promo-area {
         display: grid;
         grid-template-columns: 1fr;
-        padding: 1rem 0 0 0;
+        padding-bottom: 1rem;
         /* justify-content: center;
         align-items: center; */
     }
@@ -46,6 +46,7 @@
         width: 480px;
         height: 200px;
         overflow: hidden;
+        padding-bottom: 0.86rem;
     }
 
     .promo-image-container img {
@@ -57,12 +58,12 @@
     .article-area {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding: 1rem 0 0;
+        /* padding: 1rem 0 0; */
     }
 
     .article-image-container {
         width: 232px;
-        height: 173.06px;
+        /* height: 173.06px; */
         overflow: hidden;
         /* Hide any content that overflows the container */
     }
