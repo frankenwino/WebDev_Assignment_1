@@ -1,9 +1,13 @@
+/* Type: Media Queries for Small Screens */
 @media only screen and (max-width: 479px) {
+
+    /* Object: Container */
     .container {
-            width: 300px;
-            margin: auto;
+        width: 300px;
+        margin: auto;
     }
-    
+
+    /* Object: Logo */
     .logo-container {
         width: 300px;
     }
@@ -13,6 +17,7 @@
         height: 100%;
     }
 
+    /* Object: Featured Image */
     .featured-image-container {
         width: 300px;
         height: 200px;
@@ -25,11 +30,11 @@
         object-fit: cover;
     }
 
+    /* Object: Promoted Film */
     .promo-area {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-
     }
 
     .promo-image-container {
@@ -45,35 +50,36 @@
         object-fit: cover;
     }
 
+    /* Object: Article */
     .article-area {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    
+
     .article-image-container {
         width: 300px;
         height: 230.77px;
         overflow: hidden;
-        /* Hide any content that overflows the container */
     }
 
     .article-image-container img {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        /* Fit the image inside the container while preserving aspect ratio */
     }
 
+    /* Object: Post Entry */
     .post-entry {
         width: 300px;
     }
 
+    /* Utility: Hide Elements */
     .tablet-test,
     .tablet-large-test,
     .laptop-test,
     .desktop-test,
     .desktop-menu {
-            display: none;
+        display: none;
     }
 }
