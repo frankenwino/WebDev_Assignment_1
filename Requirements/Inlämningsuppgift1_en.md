@@ -36,13 +36,13 @@ Remember that all files and folders should be named clearly so that it is eviden
 
 -[ ] The requirements for passing are met
 
--[ ] The elements on the page should be fully responsive - matching the original website's responsiveness
+-[x] The elements on the page should be fully responsive - matching the original website's responsiveness
 
--[ ] There should be several screenshots of the original website's appearance for different screen sizes - at least one for mobile, one for tablet, and one for desktop.
+-[x] There should be several screenshots of the original website's appearance for different screen sizes - at least one for mobile, one for tablet, and one for desktop.
 
--[ ] Colors, sizes, and distances should match the original website's
+-[x] Colors, sizes, and distances should match the original website's
 
--[ ] An icon set (css file from FontAwesome or MaterialUI) should be loaded into the head tag, icons from the file should then be used in at least one place in the html code.
+-[x] An icon set (css file from FontAwesome or MaterialUI) should be loaded into the head tag, icons from the file should then be used in at least one place in the html code.
 
 -[ ] The code should be logically structured with clear comments for its construction
 
