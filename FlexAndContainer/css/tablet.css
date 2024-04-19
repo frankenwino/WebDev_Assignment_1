@@ -1,0 +1,33 @@
+@media screen and (min-width:480px) and (max-width: 768px) {
+    .container {
+            width: 480px;
+            margin: auto;
+            border: solid 1px tomato;
+    }
+}
+
+.desktop-nav-links {
+    display: none;
+}
+
+/* .logo-area {
+    display: flex;
+    flex-direction: column;
+    padding-top: 3rem;
+} */
+
+/* .featured-area {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    padding-top: 2rem;
+} */
+
+.promo-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.promo-area > img{
+    padding-top: 2rem;;
+}
