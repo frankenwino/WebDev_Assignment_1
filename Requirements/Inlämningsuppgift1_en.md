@@ -30,11 +30,11 @@ Remember that all files and folders should be named clearly so that it is eviden
 
 -[x] Colors, sizes, and distances should be similar to the original website's
 
--[ ] The assignment must be submitted on time! (the project folder is zipped and submitted in the learning platform as a group)
+-[x] The assignment must be submitted on time! (the project folder is zipped and submitted in the learning platform as a group)
 
 **Requirements for passing with distinction:**
 
--[ ] The requirements for passing are met
+-[x] The requirements for passing are met
 
 -[x] The elements on the page should be fully responsive - matching the original website's responsiveness
 
@@ -44,7 +44,7 @@ Remember that all files and folders should be named clearly so that it is eviden
 
 -[x] An icon set (css file from FontAwesome or MaterialUI) should be loaded into the head tag, icons from the file should then be used in at least one place in the html code.
 
--[ ] The code should be logically structured with clear comments for its construction
+-[x] The code should be logically structured with clear comments for its construction
 
 **Mini-glossary:**
 
