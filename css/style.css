@@ -18,9 +18,6 @@ body {
 
 .container {
     width: 1080px;
-    /* margin: 0 auto; */
-    /* align-items: center;
-    justify-content: center; */
 }
 
 .flex {
@@ -34,6 +31,11 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+}
+
+.device-menu i {
+    font-size: 1.3rem;
+    color: white;
 }
 
 .desktop-menu {
@@ -101,16 +103,6 @@ body {
     justify-content: center;
 }
 
-
-
-/* footer {
-    height: 5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 0.74rem;
-} */
-
 .bleeding-skull-copyright {
         height: 5rem;
         display: flex;
@@ -135,9 +127,9 @@ body {
 .older {
     display: flex;
     justify-content: flex-end;
-    /* padding: 4rem 0 3rem 0; */
     padding-top: 4rem;
     padding-bottom: 3rem;
+    text-decoration-line: underline;
 }
 
 form {
@@ -147,11 +139,16 @@ form {
 input[type="email"] {
     width: 362.61px;
     height: 30px;
+    font-size: 0.72rem;
 }
 
 input[type="submit"] {
     width: 103.33px;
     height: 36px;
+    font-size: 0.7rem;
+    font-weight: bold;
+    letter-spacing: 1.6px;
+    color: grey;
 }
 
 .email-bar {
@@ -199,7 +196,6 @@ li {
     font-size: 0.9rem;
     font-weight: 300;
 }
-
 
 .center-text {
     display: block;

@@ -1,96 +1,82 @@
 @media only screen and (min-width: 1171px) {
-    .nav-links {
+    /* .nav-links {
             display: flex;
             gap: 1rem;
             font-size: 1.5rem;
-        }
+        } */
     
-        .logo-container {
-            width: 1080px;
-            /* height: 196.7px; */
-        }
-    
-        .logo-container img {
-            width: 100%;
-            height: 100%;
-        }
-        
-        .container {
-            width: 1080px;
-            margin: auto;
-        }
+    .logo-container {
+        width: 1080px;
+    }
 
-        .featured-image-container {
-            width: 1080px;
-            /* height: 461px; */
-            overflow: hidden;
-        }
+    .logo-container img {
+        width: 100%;
+        height: 100%;
+    }
     
-        .featured-image-container img {
-            width: 100%;
-            /* height: 100%; */
-            object-fit: cover;
-        }
-    
-        .promo-area {
-            /* display: grid;
-            grid-template-columns: 1fr 1fr 1fr; */
-            display: flex;
-            justify-content: space-between;
-        }
-    
-        .promo-image-container {
-            width: 340px;
-            /* height: 172; */
-            overflow: hidden;
-        }
-    
-        .promo-image-container img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-        }
-    
-        .article-area {
-            /* display: grid;
-            grid-template-columns: 1fr 1fr;
-            padding: 1rem; */
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-        }
-    
-        .article-image-container {
-            width: 520px;
-            /* height: 346.14px; */
-            overflow: hidden;
-            /* Hide any content that overflows the container */
-        }
-    
-        .article-image-container img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            /* Fit the image inside the container while preserving aspect ratio */
-        }
-    
-        .post-header {
-            width: 520px;
-        }
-    
-        .post-entry {
-            width: 520px;
-        }
-    
-        .mobile-test,
-        .tablet-test,
-        .tablet-large-test,
-        .laptop-test,
-        .device-menu {
-            display: none;
-        }
+    .container {
+        width: 1080px;
+        margin: auto;
+    }
 
-        .burger-icon {
-            display: none;
+    .featured-image-container {
+        width: 1080px;
+        overflow: hidden;
+    }
+
+    .featured-image-container img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .promo-area {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .promo-image-container {
+        width: 340px;
+        overflow: hidden;
+    }
+
+    .promo-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .article-area {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .article-image-container {
+        width: 520px;
+        overflow: hidden;
+        /* Hide any content that overflows the container */
+    }
+
+    .article-image-container img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        /* Fit the image inside the container while preserving aspect ratio */
+    }
+
+    .post-header {
+        width: 520px;
+    }
+
+    .post-entry {
+        width: 520px;
+    }
+
+    .mobile-test,
+    .tablet-test,
+    .tablet-large-test,
+    .laptop-test,
+    .device-menu {
+        display: none;
     }
 }
