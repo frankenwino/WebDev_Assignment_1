@@ -134,20 +134,22 @@ form {
 }
 
 .email-bar {
-    /* position: fixed; */
-    /* bottom: 0; */
     width: 100%;
-    background-color: red;
-    height: 3.2rem;
+    height: 4rem;
+}
+
+.email-list-text {
+    font-size: 1.4rem;
+    font-weight: 1000;
+    margin-bottom: -0.35rem;
 }
 
 .email-list {
     display: flex;
-    flex-direction: column;
-    /* justify-items: center; */
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
-    padding: 1rem;
-} 
+}
 
 .uppercase {
     text-transform: uppercase;
@@ -170,16 +172,13 @@ li {
 {
     background-color: black;
 }
-.bg-red
-{
-    background-color: red;
-}
 
 .text-pink{
     color: #f64eba;
     font-size: 0.9rem;
     font-weight: 300;
 }
+
 
 .center-text {
     display: block;
