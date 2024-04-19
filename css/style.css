@@ -1,151 +1,165 @@
-/* Base styles for all screen sizes */
+ /* Type: Base styles for all screen sizes */
+ body {
+     margin: 0;
+     font-family: "Arimo", sans-serif;
+     font-optical-sizing: auto;
+     font-weight: 400;
+     font-style: normal;
+     font-size: 0.7rem;
+ }
 
-body {
-    margin: 0;
-    font-family: "Arimo", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 0.7rem;
-}
+ /* Object: Navigation */
+ .top-bar {
+     position: fixed;
+     top: 0;
+     width: 100%;
+     height: 3.2rem;
+ }
 
-.top-bar {
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 3.2rem;
-}
+ .container {
+     width: 1080px;
+ }
 
-.container {
-    width: 1080px;
-}
+ .flex {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     height: 100%;
+ }
 
-.flex {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 100%;
-}
+ .device-menu {
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+ }
 
-.device-menu {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
+ .device-menu i {
+     font-size: 1.3rem;
+     color: white;
+ }
 
-.device-menu i {
-    font-size: 1.3rem;
-    color: white;
-}
+ .desktop-menu {
+     display: flex;
+     justify-content: flex-start;
+     letter-spacing: 1px;
+ }
 
-.desktop-menu {
-    display: flex;
-    justify-content: flex-start;
-    letter-spacing: 1px;
+ .desktop-menu li {
+     padding-left: 0.92rem;
+ }
 
-}
+ .socials .nav-list {
+     font-size: 0.9rem;
+ }
 
-.desktop-menu li {
-    padding-left: 0.92rem;
-}
+ .nav-list {
+     display: flex;
+     justify-content: flex-end;
+     padding: 0;
+     gap: 1rem;
+     align-items: center;
+ }
 
-.socials .nav-list {
-    font-size: 0.9rem;
-}
+ .menu-bar {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-evenly;
+     align-items: center;
+     position: fixed;
+     top: 0;
+     width: 100%;
+     height: 3.2rem;
+ }
 
-.nav-list {
-    display: flex;
-    justify-content: flex-end;
-    padding: 0;
-    gap: 1rem;
-    align-items: center;
-}
+ .logo-container {
+     display: grid;
+     justify-content: center;
+     align-items: center;
+     padding-top: 6rem;
+     padding-bottom: 1.5rem;
+ }
 
-.menu-bar {
+  /* Object: Articles and Posts */
+ .featured-area {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding-top: 1.55rem;
+     padding-bottom: 1.87rem;
+ }
+
+ .promo-area {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     gap: 1rem;
+     padding-bottom: 1.87rem;
+ }
+
+ .article-area {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     gap: 1rem;
+ }
+
+ article {
+     padding-bottom: 1rem;
+ }
+
+ .post-header {
+     padding-top: 1rem;
+     letter-spacing: 2px;
+ }
+
+ .post-entry {
+     font-family: "Arimo";
+     font-style: normal;
+     font-weight: 400;
+     line-height: 1.4rem;
+     font-size: 0.9rem;
+ }
+
+ .post-date {
+     font-family: "Arimo";
+     font-style: normal;
+     font-weight: 400;
+     line-height: 1.4rem;
+     font-size: 0.8125rem;
+ }
+
+ .article-line {
+     border-top: 2px solid;
+     display: block;
+     max-width: 48px;
+     margin: 0 auto 15px;
+     color: black;
+ }
+
+ .older {
+     display: flex;
+     justify-content: flex-end;
+     padding-top: 4rem;
+     padding-bottom: 3rem;
+     text-decoration-line: underline;
+     letter-spacing: 1.4px;
+ }
+
+ .form {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    height: 3.2rem;
-}
-
-.logo-container {
-    display: grid;
     justify-content: center;
-    align-items: center;
-    padding-top: 6rem;
-    padding-bottom: 1.5rem;
-}
-
-.featured-area {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 1.55rem;
-    padding-bottom: 1.87rem;
-}
-
-.promo-area {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;
-    padding-bottom: 1.87rem;
-}
-
-.article-area {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 1rem;
-}
-
-article {
-    padding-bottom: 1rem;
-}
-
-.post-header {
-    padding-top: 1rem;
-    letter-spacing: 2px;
-}
-
-.post-entry {
-    font-family: "Arimo";
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.4rem;
-    font-size: 0.9rem;
-}
-
-.article-line {
-    border-top: 2px solid;
-    display: block;
-    max-width: 48px;
-    margin: 0 auto 15px;
-    color: black;
-}
-
-.older {
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 4rem;
-    padding-bottom: 3rem;
-    text-decoration-line: underline;
-    letter-spacing: 1.4px;
-}
-
-form {
-    align-items: center;
+    gap: 0.5rem;
+    margin: auto;
+    padding: 1rem;
 }
 
 input[type="email"] {
     width: 362.61px;
     height: 30px;
     font-size: 0.72rem;
+    
 }
 
 input[type="submit"] {
@@ -157,24 +171,13 @@ input[type="submit"] {
     color: grey;
 }
 
-.email-bar {
-    width: 100%;
-    height: 5rem;
-}
-
 .email-list-text {
     font-size: 1.4rem;
     font-weight: 1000;
     margin-bottom: -0.35rem;
 }
 
-.email-list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
+/* Utility: Miscellaneous */
 .bleeding-skull-copyright {
     height: 5rem;
     display: flex;
@@ -200,12 +203,11 @@ li {
     background-color: #affe53;
 }
 
-.bg-black
-{
+.bg-black {
     background-color: black;
 }
 
-.text-pink{
+.text-pink {
     color: #f64eba;
     font-size: 0.9rem;
     font-weight: 300;
@@ -215,4 +217,3 @@ li {
     display: block;
     text-align: center;
 }
-
