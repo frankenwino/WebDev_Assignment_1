@@ -1,10 +1,4 @@
-@media only screen and (min-width: 961px) and (max-width: 1170px){
-    /* .nav-links {
-            display: flex;
-            gap: 1rem;
-            font-size: 1.5rem;
-        } */
-
+@media only screen and (min-width: 961px) and (max-width: 1170px) {
     .logo-container {
         width: 942px;
     }
