@@ -1,0 +1,91 @@
+@media only screen and (min-width: 961px) {
+    .nav-links {
+            display: flex;
+            gap: 1rem;
+            font-size: 1.5rem;
+        }
+    
+        .header-image-container {
+            width: 940px;
+            height: 196.7px;
+        }
+    
+        .header-image-container img {
+            width: 100%;
+            height: 100%;
+        }
+        
+        .container {
+            width: 942px;
+            margin: auto;
+        }
+
+        .featured-image-container {
+            width: 942px;
+            height: 461px;
+            overflow: hidden;
+        }
+    
+        .featured-image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    
+        .promo-area {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            padding: 1rem 0 0 0;
+        }
+    
+        .promo-image-container {
+            width: 293;
+            height: 172;
+            overflow: hidden;
+        }
+    
+        .promo-image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    
+        .article-area {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            padding: 1rem;
+        }
+    
+        .article-image-container {
+            width: 460px;
+            height: 346.14px;
+            overflow: hidden;
+            /* Hide any content that overflows the container */
+        }
+    
+        .article-image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            /* Fit the image inside the container while preserving aspect ratio */
+        }
+    
+        .post-header {
+            width: 460px;
+        }
+    
+        .post-entry {
+            width: 460px;
+        }
+    
+        .mobile-test,
+        .tablet-test,
+        .tablet-large-test,
+        .device-menu {
+            display: none;
+        }
+
+        .burger-icon {
+            display: none;
+    }
+}
