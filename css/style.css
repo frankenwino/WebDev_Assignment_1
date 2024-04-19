@@ -39,7 +39,12 @@ body {
 .desktop-menu {
     display: flex;
     justify-content: flex-start;
-    /* align-items: center; */
+    letter-spacing: 1px;
+
+}
+
+.desktop-menu li {
+    padding-left: 0.92rem;
 }
 
 .nav-list {
