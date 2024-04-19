@@ -47,6 +47,10 @@ body {
     padding-left: 0.92rem;
 }
 
+.socials .nav-list {
+    font-size: 0.9rem;
+}
+
 .nav-list {
     display: flex;
     justify-content: flex-end;
@@ -97,9 +101,7 @@ body {
     justify-content: center;
 }
 
-form {
-    align-items: center;
-}
+
 
 /* footer {
     height: 5rem;
@@ -138,9 +140,23 @@ form {
     padding-bottom: 3rem;
 }
 
+form {
+    align-items: center;
+}
+
+input[type="email"] {
+    width: 362.61px;
+    height: 30px;
+}
+
+input[type="submit"] {
+    width: 103.33px;
+    height: 36px;
+}
+
 .email-bar {
     width: 100%;
-    height: 4rem;
+    height: 5rem;
 }
 
 .email-list-text {
